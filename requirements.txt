@@ -5,9 +5,11 @@ scikit-learn
 matplotlib
 tqdm
 rich
-torchtext
+torch==2.3.0
+torchtext==0.18.0
 lit # Getting installation errors with torch 2.0 if this isn't installed
-# torchvision
+torchvision==0.18
+torchaudio==2.3.0
 pytorch-lightning==2.0.4
 hydra-core
 omegaconf
