@@ -7,7 +7,7 @@ noise: 0.0
 dt:
   min: 0.001
   max: 0.1
-  init: random
+  init: normal
   learn: ${..learn}
   lr: 0.001
 channels: 1
